@@ -1,11 +1,15 @@
 {
-  "name": "typescript-homework-module-2",
+  "name": "goit-advancedjs-hw-06",
   "version": "1.0.0",
-  "description": "",
+  "description": "GoIT Advanced JavaScript Homework 06 - TypeScript typing",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
     "typescript": "^5.1.5"
   }
 }
